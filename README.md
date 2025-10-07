@@ -51,8 +51,27 @@
 ---
 
 
-## Getting Started
 
-1. Clone the repository:  
-```bash
-git clone https://github.com/Sucharitha1121/MediBuddy-AI-Powered-Health-Assistant-for-Personalized-Health-Insights.git
+
+## MediBuddy in Action
+
+### 1. User Account Creation Interface
+This figure showcases the user interface for account creation. It includes fields for users to input their personal information such as name, email, password, and phone number. This data is crucial for user authentication and personalization of the healthcare assistant system, ensuring secure access to medical records and tailored responses.  
+![User Account Creation](screenshots/user_account_creation.png)
+
+### 2. Personal Information Collection Form
+This figure illustrates the interface for collecting personal health data, including gender, birth date, height, and weight. These details are essential for personalizing the chatbot’s health insights and ensuring accurate responses based on the user’s demographics and health profile.  
+![Personal Information](screenshots/personal_information_form.png)
+
+### 3. Health Concerns Collection Form
+This figure displays the interface for collecting detailed health concerns, including symptoms, start dates, and information about when the symptoms worsen. This data allows the chatbot to provide context-specific medical advice, generating accurate and personalized responses based on the user’s ongoing health conditions.  
+![Health Concerns](screenshots/health_concerns_form.png)
+
+### 4. Medical Record Upload and Extracted Data Preview
+This figure illustrates the interface where users can upload their medical records. The system automatically processes the document, extracts relevant health information, and displays it in a structured format. Users can review the extracted data to ensure that diagnoses, medications, and test results are accurately captured for personalized chatbot responses.  
+![Medical Record Upload](screenshots/medical_record_upload.png)
+
+### 5. Chatbot Interaction with User Query and Model Response
+This figure depicts an example interaction between the user and the chatbot. The user asks a health-related query, and the model generates a response based on the user’s medical records and relevant knowledge from the knowledge base. This showcases the system’s ability to provide personalized, contextually relevant answers using RAG and LLM integration.  
+![Chatbot Interaction](screenshots/chatbot_interaction.png)
+
